@@ -1,0 +1,131 @@
+/* CSS reset */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* ===== web style =====*/
+/* default body */
+body{
+   font: 14px/20px helvetica, sans-serif;
+   background-color: #e2e2e2;
+   color: #181818;
+}
+/* container */
+.container{
+   width: 800px;
+   margin: auto;
+   background-color: #fafafa;
+   box-sizing: border-box;
+}
+/* header */
+header{
+   padding: 14px 24px 8px;
+}
+
+header .title {
+   font-size: 32px;
+   font-weight: bold;
+}
+
+header ul li{
+   display: inline-block;
+   margin: 20px 10px 0 0;
+}
+
+header a{
+   text-decoration: none;
+   color: #7e0c0c;  
+   padding: 4px 8px;
+}
+
+header a:hover{
+   color: #e2e2e2;
+   background-color: #7e0c0c;
+}
+
+/* Hero */
+.hero{
+   height: 400px;
+   background-image: url(img/hero.jpg);
+   background-size: cover;
+   background-position: 0 -50px;
+}
+
+/* Main */
+main{
+   padding: 30px;
+}
+
+main h2{
+   font-size: 28px;
+   font-weight: bold;
+   margin-bottom: 8px;
+}
+
+main .penulis{
+   font-size: 12px;
+   margin-bottom: 18px;
+}
+
+main .penulis a{
+   text-decoration: none;
+   color: #7e0c0c;
+}
+
+main .paragraf{
+   margin-bottom: 10px;
+   margin-right: 20px;
+   line-height: 2;
+   text-indent: 24px;
+}
+
+footer{
+   background-color: #181818;
+   padding: 8px;
+}
+
+footer p{
+   font-size: 12px;
+   color: #fafafa;
+   text-align: center;
+}
